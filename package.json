@@ -1,0 +1,21 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node --watch dist/index.js",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "node-wav-player": "^1.0.0",
+    "nodemon": "^3.1.11",
+    "ping": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
